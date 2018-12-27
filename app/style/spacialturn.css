@@ -34,8 +34,43 @@ body {
     margin-top: 3em;
     margin-bottom: 2em;
     font-size: 0.7em;
+    text-align: left;
+}
+
+.contentWindow.projects {
+    text-align: left;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contentWindow.projects :hover {
+    opacity: 0.7;
+}
+.project {
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+    display: inline-block;
+}
+.projectTitle {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+    transform: translate( -50%, -50% );
+}
+
+.projectImg {
+    height: 15vw;
+    width: 15vw;
+    display: block;
+}
+
+.contentWindow.contact {
     text-align: center;
 }
+
 
 .home {
     display: inline-block;
