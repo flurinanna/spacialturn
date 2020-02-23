@@ -133,7 +133,7 @@ body {
 }
 
 .link a:hover{
-    color: rgb(195, 195, 195); 
+    color: white; 
     cursor: pointer;
 }
 
