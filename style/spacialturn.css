@@ -1,9 +1,18 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: ­BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
     margin: 3em;
     color: #222222;
 }
 
+.titel2 {
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
 
 .rowHeader2 {
     padding-top: 1vh;
@@ -93,6 +102,20 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
+}
+
+.projectImgs {
+
+}
+
+.galleryImg {
+    height: 40vw;
+}
+
+
+.projectdescription {
+    padding-bottom: 1.8em;
+    text-align: left;
 }
 
 .contentWindow.contact {
