@@ -112,10 +112,14 @@ body {
     height: 40vw;
 }
 
+.description {
+    text-align: left;
+    width: 50vw;
+}
 
 .projectdescription {
-    padding-bottom: 1.8em;
-    text-align: left;
+    padding-bottom: 2em;
+    font-size: 0.8em;
 }
 
 .contentWindow.contact {
