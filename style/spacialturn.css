@@ -25,7 +25,7 @@ body {
 }
 
 .navigation:hover {
-    color: green; 
+    color: rgb(195, 195, 195); 
     cursor: pointer;
 }
 
@@ -44,7 +44,7 @@ body {
 .contentWindow  {
     margin-top: 3em;
     margin: 2em 2em;
-    text-align: center;
+    text-align: left;
 }
 
 .contentWindow.about {
@@ -119,16 +119,20 @@ body {
 
 .projectdescription {
     padding-bottom: 2em;
-    font-size: 0.8em;
-}
-
-.contentWindow.contact {
-    text-align: center;
     font-size: 0.85em;
 }
 
+.contentWindow.contact {
+    text-align: left;
+    font-size: 0.85em;
+}
+
+.link {
+    padding-left: 5vw; 
+}
+
 .link a:hover{
-    color: green; 
+    color: rgb(195, 195, 195); 
     cursor: pointer;
 }
 
