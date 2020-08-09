@@ -14,6 +14,10 @@ body {
     padding-bottom: 0.5em;
 }
 
+.projekttitel {
+    font-weight: 1000;
+}
+
 .rowHeader2 {
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -50,6 +54,20 @@ body {
 
 .contentWindow.about {
     font-size: 0.85em;
+}
+
+.wir {
+    position: relative;
+    display: inline-block;
+}
+
+.whiteBackground {
+    padding: 0.5em;
+    background-color: #dddddd;
+}
+
+.portrait {
+    text-align: center;
 }
 
 .contentWindow.projects {
@@ -105,25 +123,24 @@ body {
     transition: 0.5s ease-in-out;
 }
 
-.projectImgs {
-
-}
 
 .galleryImg {
     height: 40vw;
 }
 
-.description {
-    text-align: left;
-    width: 50vw;
-}
-
 .projectdescription {
     padding-bottom: 2em;
     font-size: 0.85em;
+    padding-left: 5vw;  
 }
 
-.contentWindow.contact {
+.aboutdescription {
+    padding-bottom: 2em;
+    font-size: 1em;
+    padding-left: 5vw;  
+}
+
+.contentWindow.contact {    
     text-align: left;
     font-size: 0.85em;
 }
